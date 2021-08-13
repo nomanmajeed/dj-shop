@@ -174,3 +174,8 @@ STRIPE_SECRET_KEY = (
 )
 # STRIPE_ENDPOINT_SECRET = ''
 # stripe listen --forward-to localhost:8000/payment/webhook/
+
+
+import django_heroku
+
+django_heroku.settings(locals())
