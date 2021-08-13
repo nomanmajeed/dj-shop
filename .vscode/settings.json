@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  "python.sortImports.args": [
+    "--profile=black",
+  ],
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--line-length=119"
+  ],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "python.linting.enabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.pylintEnabled": true,
+  "beautify.language": {
+    "html": [
+      "django-html"
+    ]
+  },
+  "[django-html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
+}
