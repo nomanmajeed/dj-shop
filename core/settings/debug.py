@@ -29,3 +29,8 @@ if DEBUG:
     DEBUG_TOOLBAR_CONFIG = {
         "INTERCEPT_REDIRECTS": False,
     }
+
+
+import django_heroku
+
+django_heroku.settings(locals())
